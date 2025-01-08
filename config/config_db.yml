@@ -1,0 +1,10 @@
+db:
+  user: postgres
+  password: postgres
+  dbname: postgres
+  dbhost: db
+  dbport: 5432
+  sslmode: disable
+  max_open_connections: 10
+  max_idle_connections: 10
+  conn_max_lifetime_minutes: 3
